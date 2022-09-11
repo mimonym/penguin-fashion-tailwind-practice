@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguine Fashion</title>
+
+    <!-- tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- for customization -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                headerbg: '#FFFBF0',
+                price: '#FABE4C',
+                cardbg:'#F1F1F1',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+
+  <!-- header starts -->
+<header class="bg-headerbg pb-32 pt-32">
+  <section class="container mx-auto sm:flex items-center justify-around">
+    <div class="space-y-4 sm:justify-center">
+      <h1 class="text-5xl font-bold">
+        <span class="text-yellow-400">BE THE PENGUINS</span> <br>
+        <span>OF WINTER</span>
+      </h1>
+      <p>Lorem Ipsum, iusto corrupti dolorem eaque repellat laudantium amet quisquam est!</p>
+      <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 inline">
+        <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+      </svg>
+      Buy Now</button>
+  </div>
+  <div class="pt-12 sm:pt-0">
+    <img class=" w-5/6 sm:w-full" src="images/model.png" alt="">
+  </div>
+  </section> 
+</header>
+  <!-- header ends -->
+
+  <!-- main starts -->
+  <main class="container mx-auto pt-32">
+    <!-- women jacket -->
+    <section class="pb-24">
+      <h2 class="text-5xl font-semibold">Women's Jacket</h2>
+      <div class="pt-8 grid lg:grid-cols-3 md:grid-cols-2 gap-7 ">
+        <!-- jacket 1 -->
+        <div class=" p-4 shadow-md ">
+          <div class="p-5 bg-cardbg rounded-xl">
+            <img src="images/jacket-1.png" alt="">
+          </div>
+          <h3 class="text-3xl font-semibold">Holud Pakhi Jacket</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, minima!</p>
+          <div class="flex justify-between">
+            <h4 class="text-4xl text-price font-bold">$236</h4>
+            <button class="uppercase bg-[#A4BC46] py-3 px-6 text-white font-semibold rounded-xl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 inline">
+              <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+            </svg>
+            Buy Now</button>
+          </div>
+        </div>
+        <div class="p-4 shadow-md rounded-xl">
+          <div class="p-5 bg-cardbg rounded-xl">
+            <img src="images/jacket-2.png" alt="">
+          </div>
+          <h3 class="text-3xl font-semibold">Holud Pakhi Jacket2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, minima!</p>
+          <div class="flex justify-between">
+            <h4 class="text-4xl text-price font-bold">$236</h4>
+            <button class="uppercase bg-[#A4BC46] py-3 px-7 text-white font-semibold rounded-xl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 inline">
+              <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+            </svg>
+            Buy Now</button>
+          </div>
+        </div>
+        <div class="p-4 shadow-md rounded-xl">
+          <div class="p-5 bg-cardbg rounded-xl">
+            <img src="images/jacket-3.png" alt="">
+          </div>
+          <h3 class="text-3xl font-semibold">Laal Pakhi Jacket</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, minima!</p>
+          <div class="flex justify-between">
+            <h4 class="text-4xl text-price font-bold">$236</h4>
+            <button class="uppercase bg-[#A4BC46] py-3 px-7 text-white font-semibold rounded-xl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 inline">
+              <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+            </svg>
+            Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- men jacket -->
+    <section class="pb-24">
+      <h2 class="text-5xl font-semibold">Men's Jacket</h2>
+      <div class="pt-8 grid lg:grid-cols-3 md:grid-cols-2 gap-7 ">
+        <!-- jacket 1 -->
+        <div class="p-4 shadow-md">
+          <div class="p-5 bg-cardbg rounded-xl">
+            <img src="images/jacket-4.png" alt="">
+          </div>
+          <h3 class="text-3xl font-semibold">Holud Pakhi Jacket</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, minima!</p>
+          <div class="flex justify-between">
+            <h4 class="text-4xl text-price font-bold">$236</h4>
+            <button class="uppercase bg-[#A4BC46] py-3 px-7 text-white font-semibold rounded-xl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 inline">
+              <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+            </svg>
+            Buy Now</button>
+          </div>
+        </div>
+        <div class="p-4 shadow-md rounded-xl">
+          <div class="p-5 bg-cardbg rounded-xl">
+            <img src="images/jacket-5.png" alt="">
+          </div>
+          <h3 class="text-3xl font-semibold">Holud Pakhi Jacket2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, minima!</p>
+          <div class="flex justify-between">
+            <h4 class="text-4xl text-price font-bold">$236</h4>
+            <button class="uppercase bg-[#A4BC46] py-3 px-7 text-white font-semibold rounded-xl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 inline">
+              <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+            </svg>
+            Buy Now</button>
+          </div>
+        </div>
+        <div class="p-4 shadow-md rounded-xl">
+          <div class="p-5 bg-cardbg rounded-xl">
+            <img src="images/jacket-6.png" alt="">
+          </div>
+          <h3 class="text-3xl font-semibold">Laal Pakhi Jacket</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, minima!</p>
+          <div class="flex justify-between">
+            <h4 class="text-4xl text-price font-bold">$236</h4>
+            <button class="uppercase bg-[#A4BC46] py-3 px-7 text-white font-semibold rounded-xl"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 inline">
+              <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+            </svg>
+            Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+  </main>
+  <!-- main ends -->
+  
+    
+</body>
+</html>
